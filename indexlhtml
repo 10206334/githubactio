@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>搜索页面</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>搜索页面</h1>
+    </header>
+    <main>
+        <form>
+            <label for="searchInput">搜索：</label>
+            <input type="text" id="searchInput" name="searchInput" placeholder="请输入要搜索的内容...">
+            <button type="submit" id="searchButton">搜索</button>
+        </form>
+        <div id="searchResults"></div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>
